@@ -91,7 +91,7 @@ console.log('boom')
       <div className='text-light bg-dark pt-5'>
         <Container>
           <h1>Search for Books!</h1>
-          <div onSubmit={handleFormSubmit}>
+          <Form onSubmit={handleFormSubmit}>
             <div>
               <Col xs={12} md={8}>
                 <Form.Control
@@ -109,7 +109,7 @@ console.log('boom')
                 </Button>
               </Col>
             </div>
-          </div>
+          </Form>
         </Container>
       </div>
 
